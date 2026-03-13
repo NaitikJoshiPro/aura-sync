@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const songsDir = path.join(__dirname, '../Songs');
+const songsDir = path.join(__dirname, '../public/songs');
 
 function cleanup() {
   if (!fs.existsSync(songsDir)) {
